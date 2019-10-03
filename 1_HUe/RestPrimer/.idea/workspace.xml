@@ -2,11 +2,17 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="RestPrimer:war exploded" />
+      <artifact name="restprimer:war exploded" />
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="df34cbbb-4265-4562-a9bc-6e07d38dae75" name="Default Changelist" comment="" />
+    <list default="true" id="df34cbbb-4265-4562-a9bc-6e07d38dae75" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RestPrimer_Test/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RestPrimer_Test/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../RestPrimer_Test/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RestPrimer_Test/src/test/java/at/htl/restprimer/rest/TimeServerResourceIT.java" beforeDir="false" afterPath="$PROJECT_DIR$/../RestPrimer_Test/src/test/java/at/htl/restprimer/rest/TimeServerResourceIT.java" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,6 +25,9 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
   <component name="JsFlowSettings">
     <service-enabled>true</service-enabled>
@@ -34,10 +43,12 @@
     </option>
   </component>
   <component name="ProjectId" id="1RNScJwu2cYItoLMlqqICsyVsI6" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../RestPrimer_Test" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="consents" />
   </component>
   <component name="RunDashboard">
@@ -54,9 +65,10 @@
   </component>
   <component name="RunManager">
     <configuration name="Wildfly" type="JBossConfiguration" factoryName="Local" APPLICATION_SERVER_NAME="JBoss 17.0.1.Final" ALTERNATIVE_JRE_ENABLED="false">
-      <option name="UPDATING_POLICY" value="redeploy-artifacts" />
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:10080/restprimer/" />
+      <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
-        <artifact name="RestPrimer:war exploded">
+        <artifact name="restprimer:war exploded">
           <settings />
         </artifact>
       </deployment>
@@ -121,6 +133,7 @@
         <option name="Make" enabled="true" />
         <option name="BuildArtifacts" enabled="true">
           <artifact name="RestPrimer:war exploded" />
+          <artifact name="restprimer:war exploded" />
         </option>
       </method>
     </configuration>
@@ -222,10 +235,22 @@
       <workItem from="1570012138553" duration="885000" />
       <workItem from="1570027132551" duration="146000" />
       <workItem from="1570027326755" duration="12000" />
+      <workItem from="1570081776732" duration="328000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
